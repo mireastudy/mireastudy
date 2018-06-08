@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+    
+  <p>Лабораторная работа 2 (все выполненные задания)</p>
+
+    
+
+    <script src="checkage1.js">
+    // задание 1
+    </script>
+     <script src="checkage2.js">
+    // задание 1
+    </script>
+    
+
+ <script src="min.js"> // задание 2 </script>
+    
+    
+  
+ <script src="pow.js">   // задание 3  </script>
+    
+      
+      <script>
+    // задание 4.1
+    function sumTo(n) {
+  var sum = 0;
+  for (var i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
+
+alert( sumTo(100) );
+    </script>
+       
+    
+    <script>
+ // задание 4.2
+    function sumTo(n) {
+  if (n == 1) return 1;
+  return n + sumTo(n - 1);
+}
+
+alert( sumTo(100) );
+    </script>
+    
+    
+    
+    
+    <script>
+ //задание 4.3
+    function sumTo(n) {
+  return n * (n + 1) / 2;
+}
+
+alert( sumTo(100) );
+    </script>
+    
+    
+
+    <script>
+//задание 5
+    function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+}
+
+alert( factorial(5) ); // 120
+    </script>
+    
+    
+    
+     
+    <script>
+//задание 6        
+    function fib(n) {
+  var a = 1,
+    b = 1;
+  for (var i = 3; i <= n; i++) {
+    var c = a + b;
+    a = b;
+    b = c;
+  }
+  return b;
+}
+
+alert( fib(4) ); // 2
+alert( fib(6) ); // 13
+alert( fib(50) ); // 5527939700884757
+    </script>
+    
+    
+ <p>Окончание лабораторной работы 2</p>
+</body>
+</head>
+
+
+</html>
